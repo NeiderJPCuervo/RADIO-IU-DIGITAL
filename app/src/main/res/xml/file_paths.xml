@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Carpeta interna cache/images donde se guarda la foto de perfil tomada -->
+    <cache-path name="profile_images" path="images/" />
+</paths>

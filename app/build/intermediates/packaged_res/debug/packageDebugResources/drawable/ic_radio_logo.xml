@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fondo Cuadrado Blanco del Ícono -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Círculo Azul Oscuro Principal (Color exacto de B) -->
+    <path
+        android:fillColor="#052F5A"
+        android:pathData="M54,6 A48,48 0 1,0 54,102 A48,48 0 1,0 54,6 Z" />
+
+    <!-- Micrófono Central Blanco con REJILLA (Corregido) -->
+    <!-- Forma sólida del micrófono -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,24 C49,21.2 51.2,19 54,19 C56.8,19 59,21.2 59,24 L59,36 C59,38.8 56.8,41 54,41 C51.2,41 49,38.8 49,36 Z" />
+
+    <!-- Rejilla (Rayas) dentro del micrófono (Color Azul del círculo para que se vea hueco) -->
+    <path
+        android:strokeColor="#052F5A"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M51,23 L57,23 M50.5,26 L57.5,26 M50.5,29 L57.5,29 M50.5,32 L57.5,32 M51,35 L57,35" />
+
+    <!-- Soporte en U del Micrófono (Color Blanco) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M44,34 C44,43 64,43 64,34" />
+
+    <!-- Pie del Micrófono (Color Blanco) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52.5,42 L55.5,42 L55.5,50 L52.5,50 Z M47,50 L61,50 L61,52.5 L47,52.5 Z" />
+
+    <!-- Ondas de Radio (Color Azul Claro/Grisáceo exacto de B) -->
+    <!-- Ondas Izquierdas -->
+    <path
+        android:strokeColor="#678DB3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M40,26 C37,30 37,36 40,40" />
+    <path
+        android:strokeColor="#678DB3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M35,22 C30,28 30,38 35,44" />
+
+    <!-- Ondas Derechas -->
+    <path
+        android:strokeColor="#678DB3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M68,26 C71,30 71,36 68,40" />
+    <path
+        android:strokeColor="#678DB3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M73,22 C78,28 78,38 73,44" />
+
+    <!-- Texto "IU" Centrado y Grande (Color Blanco) -->
+    <!-- Letra I -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,60 L47,60 L47,78 L42,78 Z" />
+
+    <!-- Letra U -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,60 L57,60 L57,72 C57,74 58,74.5 59.5,74.5 C61,74.5 62,74 62,72 L62,60 L67,60 L67,72 C67,77 62,78.5 59.5,78.5 C57,78.5 52,77 52,72 Z" />
+
+</vector>
